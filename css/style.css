@@ -17,49 +17,6 @@ body {
     box-sizing: border-box;
 }
 
-.sidebar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 16px;
-    width: 12vw;
-
-}
-
-.sidebar a {
-    margin-bottom: 50px;
-    text-decoration: none;
-    color: #2A80FA;
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.persona {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.persona img {
-    max-width: 150px;
-    border-radius: 100px;
-
-}
-
-.persona h3 {
-    padding-top: 30px;
-    color: #2A80FA;
-    font-size: 18px;
-    padding-bottom: 10px;
-}
-
-.persona p,
-.welcome p {
-    font-size: 12px;
-    color: #737373;
-
-}
-
 .divisoria {
     margin: 16px;
     height: 90vh;
@@ -68,36 +25,20 @@ body {
 
 }
 
-.box-sidebar {
-    display: flex;
-    align-items: center;
-    margin-top: 24px;
-}
-
-.list-sidebar {
-    padding-left: 10px;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    font-size: 14px;
-}
-
-.item {
-    padding: 4px;
-}
-
 .welcome h2 {
     color: #2A80FA;
-    font-size: 18px;
+    font-size: 22px;
 }
 
-.welcome {}
+.welcome p {
+    color: #737373;
+}
 
 .content-one {
     display: flex;
-    padding: 16px;
     justify-content: space-between;
-    width: 65vw;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .content-one button {
@@ -108,6 +49,7 @@ body {
     background: rgba(42, 128, 250, 0.1);
     cursor: pointer;
     padding: 12px 20px;
+    font-size: 18px;
 }
 
 .content-one button:hover {
@@ -115,27 +57,10 @@ body {
     color: #FFF;
 }
 
-.cards {
-    display: flex;
+.main {
+    width: 68%;
+    padding: 8px;
 }
-
-.card {
-    width: 216px;
-    height: 200px;
-    background-color: #2A80FA;
-    color: #FFF;
-    margin: 8px;
-    border-radius: 8px;
-    /* padding: 8px; */
-    font-weight: 700;
-
-}
-
-.card p {
-    padding: 10px;
-}
-
-.main {}
 
 .chart {
     display: flex;

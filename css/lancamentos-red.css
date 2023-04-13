@@ -1,7 +1,7 @@
-.lancamentos {
+.lancamentos-red {
     height: 70px;
     width: 100%;
-    background: rgba(118, 236, 62, 0.05);
+    background: rgba(181, 44, 35, 0.05);
     border-radius: 11;
     margin-top: 20px;
     display: flex;
@@ -9,9 +9,9 @@
     align-items: center;
 }
 
-.lancamentos .primary-color,
-.second-color {
-    color: #76EC3E;
+.lancamentos-red .primary-color,
+.lancamentos-red .second-color {
+    color: #B52C23;
 }
 
 .primary-color {

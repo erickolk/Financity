@@ -1,0 +1,59 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    width: 12vw;
+
+}
+
+.sidebar a {
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: #2A80FA;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.persona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.persona img {
+    max-width: 190px;
+    border-radius: 100px;
+
+}
+
+.persona h3 {
+    padding-top: 30px;
+    color: #2A80FA;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.persona p {
+    font-size: 14px;
+    color: #737373;
+
+}
+
+.box-sidebar {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.list-sidebar {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 18px;
+}
+
+.item {
+    padding: 4px;
+}

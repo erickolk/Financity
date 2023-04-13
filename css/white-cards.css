@@ -1,0 +1,12 @@
+.white-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.white-card {
+    background-color: #D3D3D3;
+    height: 280px;
+    width: 49.5%;
+    border-radius: 8px;
+}

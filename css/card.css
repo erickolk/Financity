@@ -1,0 +1,21 @@
+.cards {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 276px;
+    height: 250px;
+    background-color: #2A80FA;
+    color: #FFF;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+
+
+.card p {
+    padding: 10px;
+    font-size: 22px;
+}
